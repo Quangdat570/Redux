@@ -38,7 +38,7 @@ return state
 }
 // Step 2: Tạo store với reducer
 // Its API is { subscribe, dispatch, getState }. ( 3 hàm của store )
-// subscribe - mỗi lần state thay đổi thì sẽ thực hiện 1 hàm nào đó
+// subscribe - Đăng ký một hàm chạy khi mà trạng thái thay đổi
 // getState - lấy state hiện tại
 // dispatch - tạo/ thực hiện ra những Action
 let store = createStore(counter)
